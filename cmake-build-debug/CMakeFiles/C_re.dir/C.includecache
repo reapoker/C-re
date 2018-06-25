@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+H:/C++/Code/C-re/main.c
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+string.h
+-
+fcntl.h
+-
+
